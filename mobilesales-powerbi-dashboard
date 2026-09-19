@@ -1,0 +1,80 @@
+# 📱 Mobile Sales Performance & Market Trends Dashboard (Power BI)
+
+An interactive Business Intelligence dashboard built using Microsoft Power BI to analyze mobile phone sales, brand distributions, regional revenues, and customer purchase behaviors across ~3,800+ transactions.
+
+---
+
+## 📌 1. Brief Summary
+This project processes retail mobile sales data to evaluate brand popularity, revenue contributions across top cities, and customer payment preferences using Power BI data modeling and visualizations.
+
+---
+
+## 📖 2. Project Overview
+As an introduction to Business Intelligence tooling, this project transforms raw transactional records into an interactive, multi-page analytical report. It bridges raw data processing with executive-level visual storytelling.
+
+---
+
+## 🎯 3. Problem Statement
+Retail stakeholders and store managers need insights into inventory performance and consumer buying trends. This dashboard addresses key business questions:
+* Which smartphone brands generate the highest gross revenue and units sold?
+* What are the top-performing sales cities and regional hubs?
+* What payment methods and pricing tiers do customers prefer?
+
+---
+
+## 🗂️ 4. Dataset Description
+* **Source:** Mobile Sales transaction sample dataset.
+* **Size:** 3,835 rows of sales records.
+* **Key Columns:** `Transaction ID`, `Order Date` (`Day`, `Month`, `Year`, `Day Name`), `Brand`, `Mobile Model`, `Units Sold`, `Price Per Unit`, `Customer Name`, `Customer Age`, `City`, `Payment Method`, and `Customer Ratings`.
+
+---
+
+## 🛠️ 5. Tools & Technologies Used
+* **Microsoft Power BI:** Data Transformation, Power Query, Relationships, and Dashboard Layout.
+* **Data Visualization:** Card KPIs, Bar Charts, Donut Charts, and Slicers.
+* **Version Control:** Git & GitHub for professional portfolio management.
+
+---
+
+## ⚙️ 6. Methods & Workflow
+1. **Data Ingestion & Cleaning:** Loaded raw transactional data into Power BI, verified data types, and checked for missing entries.
+2. **Data Modeling:** Established calculated columns and measures (such as Total Revenue = Units Sold × Price Per Unit).
+3. **Dashboard Design:** Structured a clean user interface featuring KPI summary cards, brand share breakdowns, and regional filters.
+
+---
+
+## 💡 7. Key Insights & Findings
+* **Total Scale:** Tracked ₹76.9+ Crore in gross mobile sales across multiple retail locations.
+* **Top Brands:** Apple, Samsung, and OnePlus lead total revenue generation.
+* **Geographic Reach:** Captured sales metrics across diverse urban markets including Delhi, Mumbai, Bengaluru, Lucknow, and Hyderabad.
+
+---
+
+## 🖼️ 8. Dashboard Output & Features
+* **Interactive Slicers:** Filter data dynamically by brand, payment method, and city.
+* **Executive KPIs:** Instant overview of total units sold, average customer ratings, and gross revenue.
+
+---
+
+## 🚀 9. How to Run This Project
+1. Download the dataset or `.pbix` file from this repository.
+2. Open the report in **Microsoft Power BI Desktop**.
+3. Interact with the filters and visuals to explore regional sales trends.
+
+---
+
+## 🏁 10. Results & Conclusion
+This project successfully demonstrates the transition from static spreadsheets to dynamic Business Intelligence reporting. It provides clear visibility into retail performance, establishing a solid foundation for advanced data analysis.
+
+---
+
+## 🔮 11. Future Work
+* Implement advanced DAX time-intelligence measures (Year-to-Date, Month-over-Month growth).
+* Publish the report to the Power BI Cloud Service for live web sharing.
+
+---
+
+## 👤 12. Author & Contact
+* **Author:** [Your Name]
+* **GitHub:** [Your GitHub Profile Link]
+* **LinkedIn:** [Your LinkedIn Profile Link]
